@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "rocker": "/component/rocker/rocker",
+    "house": "/component/house/house"
+  }
+}

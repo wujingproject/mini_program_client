@@ -1,0 +1,30 @@
+/* component/rocker/rocker.wxss */
+.rocker-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.rocker1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+.rocker2 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 0, 0.2);
+  left: 15px;
+  top: 15px;
+}
+
+.rocker3 {
+  position: absolute;
+  border-radius: 50px;
+  background-color: rgb(248, 206, 18);
+  z-index: 999;
+}

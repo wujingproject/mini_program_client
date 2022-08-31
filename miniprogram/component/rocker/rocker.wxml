@@ -1,0 +1,8 @@
+<!--component/rocker/rocker.wxml-->
+<view class="rocker-container">
+  <!-- 摇杆 -->
+  <view class="rocker1"></view>
+  <view class="rocker2"></view>
+  <view class="rocker3" style=" width: {{rockerSize.w}}px; height: {{rockerSize.h}}px; left: {{rockerPos.x}}px; top: {{rockerPos.y}}px" bindtouchstart="start" bindtouchmove="move" bindtouchend="end">
+  </view>
+</view>

@@ -1,0 +1,33 @@
+/**home.wxss**/
+.map {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
+
+.build {
+  display: flex;
+  position: absolute;
+  /* border: 1px solid rgb(122, 99, 64); */
+  z-index: 997;
+}
+
+.build-name {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.hero {
+  position: fixed;
+  border-radius: 50px;
+  z-index: 998;
+}
+
+.rocker {
+  position: fixed;
+  left: 50px;
+  bottom: 100px;
+  z-index: 999;
+}

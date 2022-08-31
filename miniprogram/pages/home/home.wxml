@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<view class="home-container" style="width: {{viewport.w}}px; height: {{viewport.h}}px;">
+  <scroll-view class="bg-container" scroll-x="true">
+    <image mode="heightFix" style="height: {{viewport.h-60}}px;" src="../../res/hero/map.jpg"></image>
+    <view class="bg-btn">hahahah</view>
+  </scroll-view>
+  <view class="top-ui">
+    <image class="user-head" mode="heightFix" src="../../res/hero/wujing.jpg"></image>
+    <view class="user-name">{{"飞行果酱"}}</view>
+    <image class="user-money-icon" mode="heightFix" src="../../res/hero/icon.png"></image>
+    <text class="user-money-num">9999</text>
+  </view>
+  <view class="bottom-ui">
+    <block wx:if="ssss"></block>
+    <view class="home-icon" bindtap="home">
+      <view> {{"回家"}}</view>
+    </view>
+    <view class="fight-icon" bindtap="fight">
+      <view> {{"出战"}}</view>
+    </view>
+  </view>
+</view>

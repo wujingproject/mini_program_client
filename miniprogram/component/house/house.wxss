@@ -1,0 +1,16 @@
+/* component/house.wxss */
+.house-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.house-top {
+  width: 100px;
+  height: 30px;
+}
+
+.house-bottom {
+  width: 100px;
+  height: 70px;
+}

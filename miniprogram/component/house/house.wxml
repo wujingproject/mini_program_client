@@ -1,0 +1,4 @@
+<!--component/house.wxml-->
+<view class="house-container">11111111111111</view>
+<view class="house-top" style="transform: translateX(141.49px) translateY(703.194px) scale(0.801182) rotate(733.194deg);">{{buildData}}</view>
+<view class="house-bottom"></view>

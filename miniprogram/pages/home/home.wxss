@@ -1,0 +1,110 @@
+/* pages/home/home.wxss */
+.home-container {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+
+.bg-container {
+  position: relative;
+  margin-top: 30px;
+  z-index: 10;
+}
+
+.bg-btn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  color: aliceblue;
+  z-index: 11;
+}
+
+.top-ui {
+  position: absolute;
+  width: 100vh;
+  height: 30px;
+  background-color: #5b2e05;
+  z-index: 20;
+  top: 0px;
+}
+
+.bottom-ui {
+  position: absolute;
+  width: 100vh;
+  height: 30px;
+  background-color: #5b2e05;
+  z-index: 20;
+  bottom: 0px;
+}
+
+.user-head {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-name {
+  position: absolute;
+  width: 100px;
+  left: 55px;
+  top: 7px;
+  font-size: 12px;
+  color: aliceblue;
+}
+
+.user-money {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 5px;
+  left: 230px;
+}
+
+.user-money-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 5px;
+  left: 230px;
+}
+
+.user-money-num {
+  position: absolute;
+  top: 6px;
+  left: 258px;
+  font-size: 12px;
+  color: aliceblue;
+}
+
+.home-icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(250, 105, 8);
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.fight-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: brown;
+  bottom: 0px;
+  left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}

@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 地图 -->
+  <scroll-view style="width: {{viewport.w}}px; height: {{viewport.h}}px;" scroll-x="true" scroll-y="true" scroll-left="{{cameraPos.x}}px" scroll-top="{{cameraPos.y}}px" bindscroll="moveViewResponse">
+    <view class="map" style="width: {{mapData.w}}px; height: {{mapData.h}}px;">
+      <view class="build" wx:for="{{mapBuildData}}" wx:key="item" style="width: {{item.width}}px; height: {{item.height}}px; background-color: {{item.bgColor}}; left:{{item.x}}px; top:{{item.y}}px">
+        <view class="build-name">{{ index+ item.name}}</view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <!-- 英雄 -->
+  <image class="hero" style="width: {{hero.w}}px; height: {{hero.h}}px; left: {{hero.x}}px; top: {{hero.y}}px" src="../../res/hero/wujing.jpg" mode="aspectFit"></image>
+
+  <!-- 摇杆 -->
+  <rocker class="rocker" bindmoveView="moveView"></rocker>
+</view>
